@@ -26,4 +26,10 @@ public class CalculatorServiceImpl implements CalculatorService {
         System.out.println(Thread.currentThread().getName());
         return a + b;
     }
+
+    @Override
+    public void multiplier3(int a, int b) {
+        System.out.println(Thread.currentThread().getName());
+        System.out.println(a + b);
+    }
 }

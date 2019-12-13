@@ -15,4 +15,5 @@ import com.googlecode.jsonrpc4j.JsonRpcService;
 public interface CalculatorService {
     int multiplier(@JsonRpcParam(value = "a") int a, @JsonRpcParam(value = "b") int b);
     int multiplier2(@JsonRpcParam(value = "a") int a, @JsonRpcParam(value = "b") int b);
+    void multiplier3(@JsonRpcParam(value = "a") int a, @JsonRpcParam(value = "b") int b);
 }

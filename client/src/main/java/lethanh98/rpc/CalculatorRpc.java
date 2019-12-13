@@ -14,4 +14,7 @@ public interface CalculatorRpc {
     int multiplier(int a, int b);
 
     int multiplier2(int a, int b);
+
+    void multiplier3(int a, int b);
+
 }
